@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Blog - Opticien</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+</head>
+<body>
+  
+</head>
+<body>
+  
+  <header>
+    <div class="logo">
+      <img src="logo1site_.png" alt="Opticien Logo">
+    </div>
+    <nav>
+      <ul>
+        <li><a href="indexx.html">Accueil</a></li>
+        <li><a href="produits.html">Produits</a></li>
+        <li><a href="Nos_Magasins.html">Nos Mgasins</a></li>
+        <li><a href="apropos.html">À propos</a></li>
+        <li><a href="blog.html">Consultation</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <form>
+    <fieldset>
+      <legend>Informations personnelles</legend>
+  
+      <div>
+        <label for="nom">Nom <span>*</span></label>
+        <input type="text" id="nom" name="nom" required>
+      </div>
+  
+      <div>
+        <label for="prenom">Prénom <span>*</span></label>
+        <input type="text" id="prenom" name="prenom" required>
+      </div>
+  
+      <div>
+        <label for="email">Adresse e-mail <span>*</span></label>
+        <input type="email" id="email" name="email" required>
+      </div>
+  
+      <div>
+        <label for="telephone">Téléphone</label>
+        <input type="tel" id="telephone" name="telephone">
+      </div>
+    </fieldset>
+  
+    <fieldset>
+      <legend>Informations de livraison</legend>
+  
+      <div>
+        <label for="adresse">Adresse de livraison <span>*</span></label>
+        <textarea id="adresse" name="adresse" required></textarea>
+      </div>
+  
+     
+      <div>
+        <label for="code-postal">Code postal <span>*</span></label>
+        <input type="text" id="code-postal" name="code-postal" required>
+      </div>
+  
+      <div>
+        <label for="ville">Ville <span>*</span></label>
+        <select id="ville" name="ville" required>
+          <option value="">Sélectionner une Ville </option>
+          <option value="Tunis">Tunis</option>
+          <option value="Sfax">Sfax</option>
+          <option value="Ariana">Ariana</option>
+          <option value="beja">beja</option>
+        </select>
+      </div>
+    </fieldset>
+  
+    <fieldset>
+      <legend>Informations de la commande</legend>
+      <div>
+        <label>Genre:</label>
+        <label for="femme">
+          <input type="radio" id="femme" name="genre" value="femme"> Femme
+        </label>
+        <label for="homme">
+          <input type="radio" id="homme" name="genre" value="homme"> Homme
+        </label>
+      </div>
+      <div>
+        <label>Type:</label>
+        <label for="lunette de vue">
+          <input type="radio" id="lunette de vue" name="genre" value="lunette de vue"> lunette de vue
+        </label>
+        <label for="lunette de soleil">
+          <input type="radio" id="homme" name="genre" value="lunette de soleil"> lunette de soleil
+        </label>
+      </div>
+      <div>
+        <label for="modele">Modèle de lunettes <span>*</span></label>
+        <select id="modele" name="modele" required>
+          <option value="">Sélectionner un modèle</option>
+          <option value="modele1">Modèle 1</option>
+          <option value="modele2">Modèle 2</option>
+          <option value="modele3">Modèle 3</option>
+          <option value="modele4">Modèle 4</option>
+          <option value="modele5">Modèle 5</option>
+          <option value="modele6">Modèle 6</option>
+          <option value="modele7">Modèle 7</option>
+          <option value="modele8">Modèle 8</option>
+          <option value="modele9">Modèle 9</option>
+          <option value="modele10">Modèle 10</option>
+          <option value="modele A">modele A</option>
+
+          <option value="modele B">modele B</option>
+          <option value="modele C">Modèle C</option>
+          <option value="modele D">Modèle D</option>
+          <option value="modele E">Modèle E</option>
+          <option value="modele F">Modèle F</option>
+          <option value="modele I">Modèle I</option>
+          <option value="modele J">Modèle J</option>
+        </select>
+      </div>
+  
+      <div>
+        <label for="quantite">Quantité <span>*</span></label>
+        <input type="number" id="quantite" name="quantite" min="1" max="10" value="1" required>
+      </div>
+  
+      <div>
+        <label for="paiement">Moyen de paiement <span>*</span></label>
+        <select id="paiement" name="paiement" required>
+          <option value="">Sélectionner un moyen de paiement</option>
+          <option value="carte-credit">Carte de crédit</option>
+          <option value="paypal">PayPal</option>
+          <option value="virement-bancaire">Virement bancaire</option>
+        </select>
+        <div class="buttons">
+            <button type="submit">Envoyer</button>
+          </div>
+          <div class = "buttons"></div> <button type="reset">Réinitialiser</button>
+        </div>
+  
+    
+</fieldset>
+  
+</body>
+<footer>
+    <p>&copy; 2023 Opticien. Tous droits réservés.</p>
+  </footer>
+
